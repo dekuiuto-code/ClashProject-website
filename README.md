@@ -4,7 +4,7 @@
 
 # LastWave Website
 
-### Official Web Portal & Interactive Documentation Platform
+### Official Web Portal & Interactive Documentation Platform for Clash Projects
 
 <p align="center">
   <a href="#">
@@ -39,33 +39,35 @@
 
 ## Overview
 
-Welcome to the official web portal for **LastWave**. Developed by **AniUi** in a lifetime collaboration with **Clash**, this site serves as the primary hub, distribution center, and interactive documentation platform for the LastWave ecosystem.
+Welcome to the official web portal for **LastWave**, hosted under **ClashProject-website**. Developed by **AniUi** in a lifetime collaboration with **Clash**, this site serves as the primary hub, distribution center, and interactive documentation platform for the LastWave ecosystem.
 
-Engineered and designed entirely from scratch using **React**, **TypeScript**, **Tailwind CSS**, and **Vite**, the web application features modular components, dynamic GitHub release integration, and a clean, responsive UI.
+Engineered using **React 19**, **TypeScript**, **Tailwind CSS**, **GSAP**, **Motion**, and **Vite**, the web application features modular components, dynamic GitHub release integration, and custom visual effects.
 
 ---
 
 ## Tech Stack & Architecture
 
-- **Frontend Framework:** React 18 / 19 with TypeScript
-- **Build Tool & Bundler:** Vite
+- **Frontend Framework:** React 19 / React-DOM 19 with TypeScript
+- **Build Tool & Bundler:** Vite 6
 - **Package Manager & Runtime:** Bun
-- **Styling:** Tailwind CSS (`index.css`)
-- **API Services:** Dynamic version tracking and direct APK fetching via release integrations
+- **Animation & FX:** GSAP 3, Motion, and Lucide React Icons
+- **Styling:** Tailwind CSS 4 with `@tailwindcss/vite` plugin (`index.css`)
+- **API Services:** Google Gen AI (`@google/genai`), Express, and dynamic GitHub release tracking
 
 ---
 
 ## Features & UI Modules
 
-- ⚡ **Dynamic Release Fetching:** Live synchronization to serve the latest APK downloads automatically.
-- 🎨 **Custom UI/UX Design:** Bespoke dark theme interface constructed with Tailwind CSS and interactive gradient components (`KazumiGradient`).
-- 📖 **Interactive Documentation Hub:** Modular documentation reader rendering structured sections, setup guides, and technical configurations (`components/LastWaveDoc`).
-- 📱 **Responsive Layouts:** Seamless screen adaptation optimized for mobile, tablet, and desktop viewports.
+- ⚡ **Dynamic Release Fetching:** Live synchronization to serve the latest APK downloads automatically via `githubRelease.ts`.
+- 🎨 **Custom Interactive UI:** Dark theme built with GSAP/Motion animations, custom gradient components (`KazumiGradient`), and animated text components (`FoldText`, `StrokeText`).
+- 📖 **Interactive Documentation Hub:** Modular documentation readers rendering structured sections and setup guides (`components/LastWaveDoc`, `LastWaveHowToUse`, `LastWaveSpec`).
+- 📱 **Multi-Page Layouts:** Structured page routing covering LastWave and Clash showcase pages (`pages/ClashPage`, `pages/HomePage`, `pages/lastwave`).
 
 ---
 
 ## Author & Organization Credits
 
+- **Clash Projects** – *Main Repository & Project Ecosystem*
 - **AniUi** – *Lead Web & UI Design Studio (Lifetime Partner with Clash)*
 - **Deku-iuto** – *Website Design, Frontend Architecture & Development*
 
@@ -79,7 +81,7 @@ This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**
 GNU GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
 
-Copyright (C) 2026 AniUi / Deku-iuto
+Copyright (C) 2026 Clash Projects / AniUi / Deku-iuto
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
