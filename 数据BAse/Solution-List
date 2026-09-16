@@ -1,0 +1,46 @@
+{
+  "subdomains": [
+    {
+      "subdomain_path": "/#Solution/Lastwave",
+      "subjects": [
+        {
+          "subject_name": "how to fix playstore download error",
+          "steps": [
+            "Open Settings on your Android device.",
+            "Go to Apps or Apps & Notifications.",
+            "Find and select Google Play Store.",
+            "Tap Storage & Cache, then clear both cache and data.",
+            "Restart your device and try downloading again."
+          ],
+          "source_url": "https://github.com/dekuiuto-code/ClashProject-website/new/main",
+          "admin_author": "dekuiuto-code"
+        },
+        {
+          "subject_name": "how to clear app cache",
+          "steps": [
+            "Open Settings.",
+            "Navigate to Storage.",
+            "Select Apps and clear cache."
+          ],
+          "source_url": "https://github.com/dekuiuto-code/ClashProject-website/new/main",
+          "admin_author": "dekuiuto-code"
+        }
+      ]
+    },
+    {
+      "subdomain_path": "/clashDrive",
+      "subjects": [
+        {
+          "subject_name": "how to upload files to clashDrive",
+          "steps": [
+            "Log in to your account.",
+            "Click on the Upload button.",
+            "Select the files and confirm."
+          ],
+          "source_url": "https://github.com/dekuiuto-code/ClashProject-website/new/main",
+          "admin_author": "dekuiuto-code"
+        }
+      ]
+    }
+  ]
+}
