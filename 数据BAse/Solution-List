@@ -1,6 +1,7 @@
 {
   "subdomains": [
     {
+      "title": "Lastwave",
       "subdomain_path": "/#Solution/Lastwave",
       "subjects": [
         {
@@ -28,6 +29,7 @@
       ]
     },
     {
+      "title": "ClashDrive",
       "subdomain_path": "/#Solutions/clashDrive",
       "subjects": [
         {
